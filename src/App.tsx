@@ -23,7 +23,6 @@ class App extends Component<AppProps, AppState> {
         this.state = {
             city: "",
             resultBody: {
-               test:""
             },
         };
     }
