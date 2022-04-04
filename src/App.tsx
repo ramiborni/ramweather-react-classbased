@@ -9,7 +9,6 @@ import Result from './Components/Result';
 type AppProps = {}
 type AppState = {
     city: string,
-    resultCode: number,
     resultBody: ResponseWeatherData | { }
 }
 const api = {
